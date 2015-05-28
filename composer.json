@@ -22,5 +22,8 @@
     "web",
     "framework"
   ],
-  "license" : "MIT"
+  "license": "MIT",
+  "require": {
+  	"ryzedev/ryzeui": "dev-master"
+  }
 }
