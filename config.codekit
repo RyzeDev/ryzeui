@@ -142,10 +142,10 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/scss\/ryze.ui.scss",
-		"outputAbbreviatedPath": "\/css\/ryze.ui.css",
+		"outputAbbreviatedPath": "\/dist\/ryze.ui.min.css",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
