@@ -18,6 +18,6 @@
 		}
 	],
 	"require": {
-		"ryzedev/ryzeui": "@dev"
+		"ryzedev/ryzeui": "dev"
 	}
 }
