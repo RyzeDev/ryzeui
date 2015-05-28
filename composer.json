@@ -19,5 +19,6 @@
 	],
 	"require": {
 		"ryzedev/ryzeui": "dev-master"
-	}
+	},
+	"minimum-stability": "dev"
 }
