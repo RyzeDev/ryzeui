@@ -10,7 +10,7 @@ RyzeUI is built and curated by [Matt Litherland](http://twitter.com/mattsince87)
 
 Getting started with RyzeUI is easy. We're working on adding support for Composer.
 
-  * Clone the repo `https://github.com/mattsince87/ryzeui.git`
+  * Clone the repo `https://github.com/RyzeDev/ryzeui.git`
   * Install with [Bower](http://bower.io/): `bower install ryzedev/ryzeui`
 
 ## Documentation
