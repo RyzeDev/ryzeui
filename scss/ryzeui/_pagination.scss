@@ -1,0 +1,89 @@
+//  Ryze UI
+//  Pagination
+//
+
+.pagination {
+  display: inline-block;
+  padding-left: 0;
+  margin: 20px 0;
+  border-radius: 4px;
+  font-size: 0.8555em;
+  
+  // Bordered
+  //
+  &.pagination-bordered {
+    > li {
+      &:first-child > a {
+        border-radius: 3px 0 0 3px;
+      }
+      &:last-child > a {
+        border-radius: 0 3px 3px 0;
+      }
+      > a {
+        border: 1px solid #ddd;
+        border-radius: none;
+        &:hover {
+          background-color: #f8f8f8;
+          text-decoration: none;
+        }
+      }
+      // Reset Active
+      //
+      &.active > a,
+      &.active > a:hover,
+      &.active > a:active,
+      &.active > a:focus, {
+        border-radius: 0px;
+        border-color: darken($blue,5%);
+      }
+    }
+  }
+
+  // Centered
+  //
+  &.center {
+    margin: 20px auto;
+    display: table; // Required to center
+    padding: 0;
+  }
+
+  // Pull Right
+  //
+  &.pull-right {
+    float: right;
+    padding-right: 0px;
+  }
+  
+  // Default Styles
+  //
+  > li {
+    display: inline;
+
+    > a {
+      position: relative;
+      float: left;
+      padding: 6px 12px;
+      margin-left: -1px;
+      line-height: 1.42857143;
+      text-decoration: none;
+      background: #fff;
+      border: none;
+    }
+
+    // Active
+    //
+    &.active {
+      > a,
+      > a:hover,
+      > a:active,
+      > a:focus {
+        background-color: $blue;
+        color: #fff;
+        cursor: default;
+        z-index: 1;
+        border-radius: 3px;
+        text-decoration: none;
+      }
+    }
+  }
+}

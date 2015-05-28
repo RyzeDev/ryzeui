@@ -1,0 +1,157 @@
+//  Ryze UI
+//  Documentation
+//
+
+// Frameworks
+//
+@import 'normalize';
+@import 'susy';
+@import 'rzui';
+
+// Docs Variables
+//
+$dark: #29343c;
+
+// Google Fonts
+//
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700);
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  @include font-smoothing;
+  background: #fff;
+}
+
+// Code & HighlightJS
+//
+code.hljs {
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 12px;
+  line-height: 1.5em;
+  background: #fcfcfc;
+  padding: 1.6em;
+  border-radius: 2px;
+  border:1px solid #ddd
+}
+
+// Nav Bar
+//
+.nav-bar {
+  background: darken($dark,3%);
+}
+
+// Typography
+//
+p.doc-helper {
+  margin: 1em 0 .25em;
+  text-transform: uppercase;
+}
+
+// Doc Navs
+//
+.doc .nav-bar {
+  margin-bottom: 1em;
+}
+
+// Doc Helper
+//
+.doc-example {
+  float: left;
+  clear: both;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+// Documentation
+//
+.doc-hero {
+  float: left;
+  clear: both;
+  width: 100%;
+  padding: 130px;
+  background: darken($dark,0%);
+  border-top: 5px solid darken($dark,5%);
+  border-bottom: 3px solid $theme;
+  text-align: center;
+  color: #fff;
+  img {
+    width: 250px;
+    max-width: 100%;
+    height: auto;
+    background: transparent;
+    border: none;
+  }
+  h1 {
+    font-size: 38px;
+    margin-bottom: 6px;
+    color: white;
+  }
+  cite {
+    font-size: 28px;
+    font-weight: 300;
+    font-style: normal;
+  }
+  iframe {
+    margin: 15px 5px;
+  }
+  .g {
+    font-weight: bold;
+    color: $theme;
+  }
+}
+
+// Footer
+//
+footer.section {
+  float: left;
+  clear: both;
+  width: 100%;
+  background: darken($dark,0%);
+  // background: #2a2a2a;
+  color: #fff;
+  padding: 50px 0;
+  // Columns
+  //
+  .col {
+    @include span(6 of 12);
+    &:last-child {
+      @include span (6 of 12 last);
+    }
+  }
+  // Typography
+  //
+  h1, h2, h3, h4, p {
+    color: lighten($dark,25%);
+  }
+  .heading {
+    border-color: lighten($dark,5%);
+    padding-bottom: .5em;
+    margin-bottom: 1em;
+  }
+  ul li {
+    margin: initial;
+    &:after {
+      content: "\2013";
+      margin-left: 8px;
+      margin-right: 8px;
+    }
+    &:last-child:after {
+      content: "";
+      margin: 0;
+    }
+  }
+}
+
+// Aside
+//
+.docs-aside {
+  @include span(3 of 12);
+}
+
+// Document Containment
+//
+.doc {
+  @include span(9 of 12 last);
+  background: #fff;
+  padding: 32px 20px;
+}

@@ -1,0 +1,35 @@
+//  Ryze UI
+//  Images
+//
+
+img {
+  display: block;
+  background: #fff;
+  padding: 4px;
+  border: 1px solid #ddd;
+  margin: 10px auto;
+  clear: both;
+
+  // Pull Left
+  //
+  &.pull-left {
+    float: left;
+    margin: 10px 10px 10px 0;
+  }
+
+  // Pull Right
+  //
+  &.pull-right {
+    float: right;
+    margin: 10px 0 10px 10px;
+  }
+
+  // Responsive Image
+  //
+  &.img-responsive {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
