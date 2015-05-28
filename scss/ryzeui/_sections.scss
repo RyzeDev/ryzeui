@@ -1,0 +1,11 @@
+//  Ryze UI
+//  Sections
+//
+
+.section {
+  float: left;
+  position: relative;
+  clear: both;
+  width: 100%;
+  @include clearfix();
+}

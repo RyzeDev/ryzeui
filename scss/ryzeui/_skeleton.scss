@@ -1,0 +1,38 @@
+//  Ryze UI
+//  Skeleton
+//
+
+.esc-fluid {
+  width: 100%;
+  @include container(100%);
+}
+
+.esc {
+  @include bp(xs) {
+    @include container(100%);
+  }
+  @include bp(sm) {
+    @include container(750px);
+  }
+  @include bp(md) {
+    @include container(970px);
+  }
+  @include bp(lg) {
+    @include container(1170px);
+  }
+}
+
+.esc-sm {
+  @include bp(xs) {
+    @include container(100%);
+  }
+  @include bp(sm) {
+    @include container(750px);
+  }
+}
+
+.esc-row {
+  float: left;
+  width: 100%;
+  @include clearfix;
+}

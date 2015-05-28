@@ -1,0 +1,23 @@
+//  Ryze UI
+//  Globals
+//
+
+*, div, input,:before, :after, select, textarea {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  display: block;
+  height: 100vh;
+}
+
+body {
+  min-height: 100vh;
+  background: #f8f8f8;
+  font-size: 18px;
+}

@@ -1,0 +1,81 @@
+//  Ryze UI
+//  Button Groups
+//
+
+.button-group {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+
+  // List
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  // List Items
+  //
+  li {
+    float: left;
+    display: inline;
+
+    // Button
+    //
+    .btn {
+      float: left;
+    }
+
+    // Last Item
+    //
+    &:last-child {
+      .btn {
+        border-right: none !important;
+      }
+    }
+  }
+
+  // Centered
+  //
+  &.centered {
+    width: 100%;
+    text-align: center;
+    float: initial;
+
+    ul {
+      display: inline-block;
+      margin: 0 auto;
+    }
+  }
+
+  // Pull Right
+  //
+  &.pull-right {
+    float: right;
+  }
+
+  // Rounded
+  //
+  &.rounded {
+    li:first-child a {
+      border-radius: 10em 0 0 10em;
+    }
+    li:last-child a {
+      border-radius: 0 10em 10em 0;
+    }
+  }
+}
+
+// Colors
+//
+@mixin btn-group($btncolor){
+  border-right: lighten($btncolor,10%) 1px solid;
+}
+
+.button-group {
+  .btn-default { @include btn-group(lighten($night,10%));}
+  .btn-primary { @include btn-group($night);}
+  .btn-success { @include btn-group($green);}
+  .btn-info    { @include btn-group($blue);}
+  .btn-danger  { @include btn-group($red);}
+  .btn-warning { @include btn-group($yellow);}
+}

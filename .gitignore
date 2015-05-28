@@ -1,0 +1,4 @@
+.DS_Store
+.sass-cache
+/scss/.sass-cache/*
+!/scss/.sass-cache/*

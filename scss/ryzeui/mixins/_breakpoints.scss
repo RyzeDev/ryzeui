@@ -1,0 +1,23 @@
+//  Ryze UI: Mixin
+//  Breakpoints
+//
+
+@mixin bp($point) {
+  $bp-xs: "screen and (max-width: 767px)";
+  $bp-sm: "screen and (min-width: 768px)";
+  $bp-md: "screen and (min-width: 970px)";
+  $bp-lg: "screen and (min-width: 1200px)";
+
+  @if $point == lg {
+    @media #{$bp-lg} { @content; }
+  }
+  @else if $point == md {
+    @media #{$bp-md} { @content; }
+  }
+  @else if $point == sm {
+    @media #{$bp-sm}  { @content; }
+  }
+  @else if $point == xs {
+    @media #{$bp-xs}  { @content; }
+  }
+}

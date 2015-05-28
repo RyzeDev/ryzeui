@@ -1,0 +1,27 @@
+{
+  "name": "RyzeUI",
+  "version": "0.0.1",
+  "homepage": "https://github.com/mattsince87/ryzeui",
+  "authors": [
+    "Matt Litherland http://github.com/mattsince87"
+  ],
+  "description": "RyzeUI Front-End Framework",
+  "main": "dist/ryze.ui.min.css",
+  "keywords": [
+    "css",
+    "sass",
+    "framework",
+    "front",
+    "end",
+    "front-end"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    ".gitignore",
+    "tests",
+    "tests"
+  ]
+}
