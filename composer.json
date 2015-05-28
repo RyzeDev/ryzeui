@@ -16,9 +16,5 @@
 			"name": "Matt Litherland",
 			"email": "matt@esportsify.com"
 		}
-	],
-	"preferred-install": "dev",
-	"require": {
-		"ryzedev/ryzeui": "dev-master"
-	}
+	]
 }
