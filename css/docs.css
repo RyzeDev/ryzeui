@@ -569,7 +569,9 @@ button {
   border: none;
   outline: none;
   padding: 0.65em 1em 0.75em;
-  color: #fff; }
+  color: #fff;
+  -webkit-transition: all 0.2s ease-in-out;
+          transition: all 0.2s ease-in-out; }
   a.btn:hover,
   .btn:hover,
   input[type="submit"]:hover,
@@ -597,134 +599,115 @@ a.btn-xs,
   box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.1);
   background: #3f485a; }
   .btn-default:hover {
-    background: -webkit-linear-gradient(#3f485a, #353c4b);
-    background: linear-gradient(#3f485a, #353c4b); }
+    background: #353c4b; }
 
 .btn-primary {
   box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.1);
   background: #2a303c; }
   .btn-primary:hover {
-    background: -webkit-linear-gradient(#2a303c, #1f242d);
-    background: linear-gradient(#2a303c, #1f242d); }
+    background: #1f242d; }
 
 .btn-success {
   box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.1);
   background: #81b968; }
   .btn-success:hover {
-    background: -webkit-linear-gradient(#81b968, #72b157);
-    background: linear-gradient(#81b968, #72b157); }
+    background: #72b157; }
 
 .btn-info {
   box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.1);
   background: #4693e2; }
   .btn-info:hover {
-    background: -webkit-linear-gradient(#4693e2, #3086df);
-    background: linear-gradient(#4693e2, #3086df); }
+    background: #3086df; }
 
 .btn-danger {
   box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.1);
   background: #cb3837; }
   .btn-danger:hover {
-    background: -webkit-linear-gradient(#cb3837, #b93130);
-    background: linear-gradient(#cb3837, #b93130); }
+    background: #b93130; }
 
 .btn-warning {
   box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.1);
   background: #f0a630; }
   .btn-warning:hover {
-    background: -webkit-linear-gradient(#f0a630, #ee9c18);
-    background: linear-gradient(#f0a630, #ee9c18); }
+    background: #ee9c18; }
 
 .btn-social-facebook {
   box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.1);
   background: #3c689f; }
   .btn-social-facebook:hover {
-    background: -webkit-linear-gradient(#3c689f, #355c8c);
-    background: linear-gradient(#3c689f, #355c8c); }
+    background: #355c8c; }
 
 .btn-social-twitter {
   box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.1);
   background: #3b89b1; }
   .btn-social-twitter:hover {
-    background: -webkit-linear-gradient(#3b89b1, #357a9e);
-    background: linear-gradient(#3b89b1, #357a9e); }
+    background: #357a9e; }
 
 .btn-social-googleplus {
   box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.1);
   background: #d16847; }
   .btn-social-googleplus:hover {
-    background: -webkit-linear-gradient(#d16847, #cc5733);
-    background: linear-gradient(#d16847, #cc5733); }
+    background: #cc5733; }
 
 .btn-social-vimeo {
   box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.1);
   background: #3580c5; }
   .btn-social-vimeo:hover {
-    background: -webkit-linear-gradient(#3580c5, #3073b1);
-    background: linear-gradient(#3580c5, #3073b1); }
+    background: #3073b1; }
 
 .btn-social-spotify {
   box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.1);
   background: #5ea240; }
   .btn-social-spotify:hover {
-    background: -webkit-linear-gradient(#5ea240, #539039);
-    background: linear-gradient(#5ea240, #539039); }
+    background: #539039; }
 
 .btn-social-dribbble {
   box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.1);
   background: #d14788; }
   .btn-social-dribbble:hover {
-    background: -webkit-linear-gradient(#d14788, #cc337b);
-    background: linear-gradient(#d14788, #cc337b); }
+    background: #cc337b; }
 
 .btn-social-soundcloud {
   box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.1);
   background: #e89b49; }
   .btn-social-soundcloud:hover {
-    background: -webkit-linear-gradient(#e89b49, #e58f32);
-    background: linear-gradient(#e89b49, #e58f32); }
+    background: #e58f32; }
 
 .btn-social-skype {
   box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.1);
   background: #369cc6; }
   .btn-social-skype:hover {
-    background: -webkit-linear-gradient(#369cc6, #318cb2);
-    background: linear-gradient(#369cc6, #318cb2); }
+    background: #318cb2; }
 
 .btn-social-youtube {
   box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.1);
   background: #d14747; }
   .btn-social-youtube:hover {
-    background: -webkit-linear-gradient(#d14747, #cc3333);
-    background: linear-gradient(#d14747, #cc3333); }
+    background: #cc3333; }
 
 .btn-social-steam {
   box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.1);
   background: #444444; }
   .btn-social-steam:hover {
-    background: -webkit-linear-gradient(#444444, #373737);
-    background: linear-gradient(#444444, #373737); }
+    background: #373737; }
 
 .btn-social-pinterest {
   box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.1);
   background: #dc3d5f; }
   .btn-social-pinterest:hover {
-    background: -webkit-linear-gradient(#dc3d5f, #d8274d);
-    background: linear-gradient(#dc3d5f, #d8274d); }
+    background: #d8274d; }
 
 .btn-social-linkedin {
   box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.1);
   background: #558ec9; }
   .btn-social-linkedin:hover {
-    background: -webkit-linear-gradient(#558ec9, #4281c3);
-    background: linear-gradient(#558ec9, #4281c3); }
+    background: #4281c3; }
 
 .btn-social-twitch {
   box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.1);
   background: #6441a5; }
   .btn-social-twitch:hover {
-    background: -webkit-linear-gradient(#6441a5, #593a93);
-    background: linear-gradient(#6441a5, #593a93); }
+    background: #593a93; }
 
 [class*="btn-social-"],
 a[class*="btn-social-"],
@@ -849,9 +832,12 @@ button[class*="btn-social-"] {
       display: inline-block;
       padding: 1em .65em;
       font-size: .85em;
-      color: #fff; }
+      color: #fff;
+      -webkit-transition: all 0.25s ease-in-out;
+              transition: all 0.25s ease-in-out; }
       .nav-bar.nav-inline li a:hover {
-        background: rgba(0, 0, 0, 0.2); }
+        background: rgba(0, 0, 0, 0.2);
+        text-decoration: none; }
   .nav-bar.pull-left ul {
     float: left; }
   .nav-bar.pull-right ul {
@@ -889,7 +875,8 @@ button[class*="btn-social-"] {
         margin: 0 -20px;
         padding-left: 20px;
         padding-right: 20px;
-        background: rgba(0, 0, 0, 0.03); }
+        background: rgba(0, 0, 0, 0.03);
+        text-decoration: none; }
       .nav-side li a.active {
         font-weight: bold; }
 

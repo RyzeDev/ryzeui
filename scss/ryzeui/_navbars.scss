@@ -54,8 +54,10 @@
         padding: 1em .65em;
         font-size: .85em;
         color: #fff;
+        transition: all 0.25s ease-in-out;
         &:hover {
           background: rgba(0,0,0,0.2);
+          text-decoration: none;
         }
       }
     }

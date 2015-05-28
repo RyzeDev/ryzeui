@@ -16,10 +16,10 @@ button {
   line-height: .86em;
   @include font-smoothing;
   border: none;
-  // border: .1em solid black;
   outline: none;
   padding: 0.65em 1em 0.75em;
   color: #fff;
+  transition: all 0.2s ease-in-out;
   &:hover {
     text-decoration: none; // Removes <a> text decorations
   }
@@ -45,10 +45,9 @@ a.btn-xs,
 // Colors
 @mixin btn($btncolor){
   box-shadow: inset 0 2px 0 rgba(black,0.1);
-  // border: 1px solid darken($btncolor,4.5%);
   background: $btncolor;
   &:hover {
-    background: linear-gradient($btncolor, darken($btncolor,5%));
+    background: darken($btncolor,5%);
   }
 }
 
