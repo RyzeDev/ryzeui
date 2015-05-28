@@ -18,6 +18,6 @@
 		}
 	],
 	"require": {
-		"ryzedev/ryzeui": "dev-master as 1.0.0"
+		"ryzedev/ryzeui": "dev-master@dev"
 	}
 }
