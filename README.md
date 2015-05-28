@@ -12,7 +12,7 @@ Getting started with RyzeUI is easy.
 
   * Clone the repo `https://github.com/RyzeDev/ryzeui.git`
   * Install with [Bower](http://bower.io/): `bower install ryzeui`
-  * Install with [Composer](https://getcomposer.org/): `composer require ryze/devryzeui` - VC: `dev-master`
+  * Install with [Composer](https://getcomposer.org/): `composer require ryzedev/ryzeui`
 
 ## Documentation
 
