@@ -16,7 +16,7 @@ Getting started with RyzeUI is easy.
 
 ## Documentation
 
-Take a look at the [documentation](http://ryzedev.github.io/ryzeui/) or switch to the [gh-pages](https://github.com/mattsince87/ryzeui/tree/gh-pages) branch to view the documentation source files.
+Take a look at the [documentation](http://ryzedev.github.io/ryzeui/) or switch to the [HitHub Pages](https://github.com/mattsince87/ryzeui/tree/gh-pages) branch to view the documentation source files.
 
 ## Bugs
 
