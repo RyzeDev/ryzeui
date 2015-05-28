@@ -4,9 +4,8 @@
 
 .nav-bar {
   float: left;
-  clear: both;
   width: 100%;
-  height: 50px;
+  height: auto;
   background: #3a3a3a;
 
   nav, ul, li {
@@ -14,18 +13,32 @@
     padding: 0;
   }
 
+  > div {
+    position: relative;
+  }
+
   // Navbar Header
   //
   .nav-header {
     float: left;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    height: 100%;
     // Name
     //
     a.name {
-      display: inline-block;
-      padding: 1em .65em;
+      flex: 1;
+      padding: 0em .65em;
       font-size: .85em;
       font-weight: 700;
       color: #fff;
+      span {
+        line-height: 1em;
+      }
     }
   }
 
