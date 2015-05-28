@@ -1,6 +1,6 @@
 # RyzeUI
 
-RyzeUI is a responsive front-end framework built for rapid theme deployment for developers using the [Esportsify](http://esportsify.com) software to power their website.
+RyzeUI is a "Responsive Front-End (Gaming) Framework" built for rapid theme deployment for developers using the [Esportsify](http://esportsify.com) software to power their website.
 
 RyzeUI is built and curated by [Matt Litherland](http://twitter.com/mattsince87).
 
