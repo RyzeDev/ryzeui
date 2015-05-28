@@ -17,5 +17,8 @@
 			"email": "matt@esportsify.com"
 		}
 	],
-	"preferred-install": "dev"
+	"preferred-install": "stable",
+	"require": {
+		"ryzedev/ryzeui": "dev-master"
+	}
 }
