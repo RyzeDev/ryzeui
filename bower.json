@@ -5,7 +5,7 @@
   "authors": [
     "Matt Litherland http://github.com/mattsince87"
   ],
-  "description": "RyzeUI Front-End Framework",
+  "description": "RyzeUI Front-End (Gaming) Framework",
   "main": "dist/ryze.ui.min.css",
   "keywords": [
     "css",
@@ -13,7 +13,8 @@
     "framework",
     "front",
     "end",
-    "front-end"
+    "front-end",
+    "web"
   ],
   "license": "MIT",
   "ignore": [

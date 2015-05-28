@@ -13,6 +13,17 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
 		},
+	"\/composer.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/composer.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/composer-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/dist\/ryze.ui.min.css": {
 		"fileType": 16,
 		"ignore": 1,

@@ -1,0 +1,32 @@
+{
+  "name": "ryzedev/ryzeui",
+  "description": "RyzeUI Front-End (Gaming) Framework",
+  "keywords": [
+    "css",
+    "sass",
+    "framework",
+    "front",
+    "end",
+    "front-end",
+    "web"
+  ],
+  "homepage": "https://github.com/mattsince87/ryzeui",
+  "authors": [
+    {
+      "name": "Mark Litherland",
+      "email": "mattsince87@gmail.com"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/ryzedev/ryzeui/issues"
+  },
+  "license": "MIT",
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.0.1"
+    }
+  },
+  "replace": {
+    "ryzedev/ryzeui": "self.version"
+  }
+}
