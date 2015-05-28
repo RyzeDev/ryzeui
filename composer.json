@@ -1,24 +1,26 @@
 {
-	"name": "ryzedev/ryzeui",
-	"description": "RyzeUI Front-End (Gaming) Framework",
-	"license": "MIT",
-	  "keywords": [
-		"css",
-		"sass",
-		"framework",
-		"front",
-		"end",
-		"front-end",
-		"web"
-	  ],
-	"authors": [
-		{
-			"name": "Matt Litherland",
-			"email": "matt@esportsify.com"
-		}
-	],
-	"require": {
-		"ryzedev/ryzeui": "dev-master"
-	},
-	"minimum-stability": "@dev"
+  "name"        : "ryzedev/ryzeui",
+  "description" : "RyzeUI Front-End (Gaming) Framework",
+  "homepage"    : "http://ui.ryze.io",
+  "authors"     : [
+    {
+      "name"     : "Matt Litherland",
+      "email"    : "matt@esportsify.com",
+      "homepage" : "http://twitter.com/mattsince87",
+      "role"     : "Creator"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/ryzedev/ryzeui/issues",
+    "source": "https://github.com/ryzedev/ryzeui"
+  },
+  "keywords" : [
+    "ryze",
+    "ui",
+    "css",
+    "sass",
+    "web",
+    "framework"
+  ],
+  "license" : "MIT"
 }
