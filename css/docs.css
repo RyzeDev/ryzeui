@@ -337,16 +337,20 @@ body {
 
 a,
 a:link,
-a:active {
+a:active,
+a:focus {
   color: #4693e2;
-  text-decoration: none; }
+  text-decoration: none;
+  outline: none; }
   a:hover,
   a:link:hover,
-  a:active:hover {
+  a:active:hover,
+  a:focus:hover {
     text-decoration: underline; }
   a:visited,
   a:link:visited,
-  a:active:visited {
+  a:active:visited,
+  a:focus:visited {
     color: #4693e2; }
 
 h1,
@@ -788,14 +792,39 @@ button[class*="btn-social-"] {
   .section:after {
     clear: both; }
 
-.nav-bar {
+.nav-wrapper {
   float: left;
+  position: relative;
   width: 100%;
   height: auto;
   background: #3a3a3a; }
+
+.nav-bar {
+  float: left;
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: #3a3a3a;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .nav-bar .esc {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto; }
+    .nav-bar .esc:after {
+      content: " ";
+      display: block;
+      clear: both; }
   .nav-bar nav, .nav-bar ul, .nav-bar li {
     margin: 0;
-    padding: 0; }
+    padding: 0;
+    position: relative; }
   .nav-bar > div {
     position: relative; }
   .nav-bar .nav-header {
@@ -808,10 +837,6 @@ button[class*="btn-social-"] {
     -webkit-align-items: center;
         -ms-flex-align: center;
             align-items: center;
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
     height: 100%; }
     .nav-bar .nav-header a.name {
       -webkit-box-flex: 1;
@@ -826,22 +851,73 @@ button[class*="btn-social-"] {
         line-height: 1em; }
   .nav-bar.nav-inline li {
     position: relative;
-    display: inline;
-    margin: 0 2px; }
+    display: inline-block;
+    margin: 0;
+    height: auto; }
     .nav-bar.nav-inline li a {
       display: inline-block;
-      padding: 1em .65em;
+      padding: 15px .65em;
+      margin: 0;
       font-size: .85em;
       color: #fff;
       -webkit-transition: all 0.25s ease-in-out;
               transition: all 0.25s ease-in-out; }
       .nav-bar.nav-inline li a:hover {
-        background: rgba(0, 0, 0, 0.2);
+        background: #353c4b;
         text-decoration: none; }
+    .nav-bar.nav-inline li.dropdown a:after {
+      content: "▾";
+      color: #fff;
+      margin-left: 6px;
+      position: relative;
+      top: -1px; }
+    .nav-bar.nav-inline li .dropdown-menu {
+      display: none;
+      top: 100%;
+      z-index: 1000;
+      min-width: 160px;
+      position: absolute;
+      right: 0;
+      left: auto;
+      background: #3f485a;
+      background-clip: padding-box;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+      padding: 5px;
+      opacity: 0; }
+      .nav-bar.nav-inline li .dropdown-menu li {
+        float: left;
+        clear: both;
+        width: 100%;
+        margin: 0;
+        white-space: nowrap; }
+        .nav-bar.nav-inline li .dropdown-menu li a {
+          display: inline-block;
+          width: 100%;
+          padding: .5em .75em; }
+          .nav-bar.nav-inline li .dropdown-menu li a:after {
+            visibility: hidden;
+            display: none;
+            content: ""; }
+        .nav-bar.nav-inline li .dropdown-menu li.divider {
+          margin: 5px 0;
+          border-top: 1px solid #4a5469; }
+    .nav-bar.nav-inline li.open a {
+      background: #3f485a; }
+    .nav-bar.nav-inline li.open > .dropdown-menu {
+      display: inline-block;
+      opacity: 1; }
   .nav-bar.pull-left ul {
-    float: left; }
+    float: left;
+    margin-right: auto; }
+    .nav-bar.pull-left ul li .dropdown-menu {
+      left: 0;
+      right: auto; }
   .nav-bar.pull-right ul {
-    float: right; }
+    float: right;
+    margin-left: auto; }
+    .nav-bar.pull-right ul li .dropdown-menu {
+      right: 0;
+      left: auto; }
 
 .nav-side {
   float: left;
@@ -1378,6 +1454,7 @@ code.hljs {
   border-radius: 2px;
   border: 1px solid #ddd; }
 
+.nav-wrapper,
 .nav-bar {
   background: #232c33; }
 

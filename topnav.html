@@ -22,9 +22,9 @@
 </head>
 <body>
 
-<div class="section">
-  <nav class="nav-bar nav-inline pull-right" role="navigation">
-    <div class="esc">
+<div class="section nav-wrapper">
+  <div class="esc">
+    <nav class="nav-bar nav-inline pull-right" role="navigation">
       <div class="nav-header">
         <a href="#" class="name"><span>RyzeUI</span></a>
       </div>
@@ -32,8 +32,8 @@
         <li><a target="_blank" href="https://github.com/RyzeDev/ryzeui">Contribute</a></li>
         <li><a href="index.html">Getting Started</a></li>
       </ul>
-    </div>
-  </nav>
+    </nav>
+  </div>
 </div>
 
 <div class="section">
@@ -111,31 +111,109 @@
 
       <h3>Helper Classes</h3>
       <p>The top nav can easily be customised to suit your themes needs. To remove the site name from your navigation, just ommit the <code>&lt;div class="nav-header"&gt;</code> and the site name wil be removed.</p>
+      
+      <p class="doc-helper"><small>Demo</small></p>
+      <div class="doc-example">
+        <nav class="nav-bar nav-inline pull-right">
+          <ul>
+            <li><a href="#">Lorem</a></li>
+            <li><a href="#">Lorem</a></li>
+            <li><a href="#">Lorem</a></li>
+            <li class="dropdown">
+              <a href="#">Lorem</a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">My Account and Settings</a></li>
+                <li><a href="#">Settings</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Logout</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
 
-      <nav class="nav-bar nav-inline pull-right">
-        <ul>
-          <li><a href="#">Lorem</a></li>
-          <li><a href="#">Lorem</a></li>
-          <li><a href="#">Lorem</a></li>
-          <li><a href="#">Lorem</a></li>
-        </ul>
-      </nav>
+      <p class="doc-helper"><small>HTML</small></p>
+      <pre><code class="html">&lt;nav class=&quot;nav-bar nav-inline pull-right&quot;&gt;</code></pre>
 
       <p>Top position your nav items with more flexibility, you can align them either left or right by using the <code>pull-left</code> and <code>pull-right</code> helper classes available to this nav.</p>
+      
+      <p class="doc-helper"><small>Demo</small></p>
+      <div class="doc-example">
+        <nav class="nav-bar nav-inline pull-left">
+          <div class="nav-header">
+            <a href="#" class="name"><span>RyzeUI</span></a>
+          </div>
+          <ul>
+            <li><a href="#">Lorem</a></li>
+            <li class="dropdown">
+              <a href="#">Lorem</a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">My Account and Settings</a></li>
+                <li><a href="#">Settings</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Logout</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Lorem</a></li>
+            <li><a href="#">Lorem</a></li>
+          </ul>
+        </nav>
+      </div>
 
-      <nav class="nav-bar nav-inline pull-left">
-        <div class="nav-header">
-          <a href="#" class="name"><span>RyzeUI</span></a>
-        </div>
-        <ul>
-          <li><a href="#">Lorem</a></li>
-          <li><a href="#">Lorem</a></li>
-          <li><a href="#">Lorem</a></li>
-          <li><a href="#">Lorem</a></li>
-        </ul>
-      </nav>
+      <p class="doc-helper"><small>HTML</small></p>
+      <pre><code class="html">&lt;nav class=&quot;nav-bar nav-inline pull-left&quot;&gt;</code></pre>
 
       <p><i>Note.</i> The <code>nav-header</code> can still be used when pulling nav items left or right.</p>
+      <hr>
+
+      <h3>Dropdown Menus</h3>
+
+      <p>Dropdown menus help keep your nav bars clean and tidy. For functions such as logging out this UI element can be extremely useful.</p>
+
+      <p class="doc-helper"><small>Demo</small></p>
+      <div class="doc-example">
+        <nav class="nav-bar nav-inline pull-right">
+          <div class="nav-header">
+            <a href="#" class="name"><span>RyzeUI</span></a>
+          </div>
+          <ul>
+            <li><a href="#">Lorem</a></li>
+            <li><a href="#">Lorem</a></li>
+            <li><a href="#">Lorem</a></li>
+            <li class="dropdown">
+              <a href="#">Lorem</a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">My Account and Settings</a></li>
+                <li><a href="#">Settings</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Logout</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <p class="doc-helper"><small>HTML</small></p>
+      <pre><code class="html">&lt;nav class=&quot;nav-bar nav-inline pull-right&quot;&gt;
+  &lt;div class=&quot;nav-header&quot;&gt;
+    &lt;a href=&quot;#&quot; class=&quot;name&quot;&gt;&lt;span&gt;RyzeUI&lt;/span&gt;&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Lorem&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Lorem&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Lorem&lt;/a&gt;&lt;/li&gt;
+    &lt;li class=&quot;dropdown&quot;&gt;
+      &lt;a href=&quot;#&quot;&gt;Lorem&lt;/a&gt;
+      &lt;ul class=&quot;dropdown-menu&quot; role=&quot;menu&quot;&gt;
+        &lt;li&gt;&lt;a href=&quot;#&quot;&gt;My Account and Settings&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Settings&lt;/a&gt;&lt;/li&gt;
+        &lt;li class=&quot;divider&quot;&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Logout&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;</code></pre>
+
       <hr>
 
       <h3>GitHub</h3>
@@ -164,6 +242,7 @@
 </footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="dist/ryze.jquery.min.js"></script>
 <script src="plugins/highlightjs/highlight.pack.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 </body>

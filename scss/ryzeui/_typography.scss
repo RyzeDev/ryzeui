@@ -6,9 +6,11 @@
 //
 a,
 a:link,
-a:active {
+a:active,
+a:focus {
   color: $blue;
   text-decoration: none;
+  outline: none;
   // Hover
   //
   &:hover {
