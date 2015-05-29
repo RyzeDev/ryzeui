@@ -1,7 +1,7 @@
 {
-  "name": "RyzeUI",
-  "description": "RyzeUI Front-End (Gaming) Framework",
-  "license": "MIT",
+  "name"				: "ryzedev/ryzeui",
+  "description"	: "RyzeUI Front-End (Gaming) Framework",
+  "license"			: "MIT",
   "keywords": [
     "css",
     "sass",
@@ -9,12 +9,9 @@
   ],
   "authors": [
     {
-      "name": "Matt Litherland",
-      "email": "matt@esportsify.com"
+      "name"	: "Matt Litherland",
+      "email"	: "matt@esportsify.com"
     }
   ],
-  "require": {
-    "ryzedev/ryzeui": "dev-master"
-  },
   "minimum-stability": "dev"
 }
