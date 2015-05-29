@@ -2,11 +2,7 @@
   "name"				: "ryzedev/ryzeui",
   "description"	: "RyzeUI Front-End (Gaming) Framework",
   "license"			: "MIT",
-  "keywords": [
-    "css",
-    "sass",
-    "framework"
-  ],
+  "keywords"		: ["css", "sass", "framework"],
   "authors": [
     {
       "name"	: "Matt Litherland",
