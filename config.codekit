@@ -157,7 +157,7 @@
 	"\/js\/dropdown.js": {
 		"fileType": 64,
 		"ignore": 1,
-		"ignoreWasSetByUser": 1,
+		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/dropdown.js",
 		"outputAbbreviatedPath": "\/js\/min\/dropdown-min.js",
 		"outputPathIsOutsideProject": 0,
@@ -334,8 +334,8 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
-		"shouldRunAutoprefixer": 1,
-		"shouldRunBless": 1,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
 	"\/scss\/ryze.ui.scss": {
