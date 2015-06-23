@@ -181,6 +181,8 @@ table {
 
 input[type="search"] {
   -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
   box-sizing: content-box; }
   input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
     -webkit-appearance: none; }
@@ -574,8 +576,7 @@ button {
   outline: none;
   padding: 0.65em 1em 0.75em;
   color: #fff;
-  -webkit-transition: all 0.2s ease-in-out;
-          transition: all 0.2s ease-in-out; }
+  transition: all 0.2s ease-in-out; }
   a.btn:hover,
   .btn:hover,
   input[type="submit"]:hover,
@@ -805,14 +806,8 @@ button[class*="btn-social-"] {
   width: 100%;
   height: auto;
   background: #3a3a3a;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center; }
+  align-items: center; }
   .nav-bar .esc {
     max-width: 100%;
     margin-left: auto;
@@ -829,20 +824,11 @@ button[class*="btn-social-"] {
     position: relative; }
   .nav-bar .nav-header {
     float: left;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
     height: 100%; }
     .nav-bar .nav-header a.name {
-      -webkit-box-flex: 1;
-      -webkit-flex: 1;
-          -ms-flex: 1;
-              flex: 1;
+      flex: 1;
       padding: 0em .65em;
       font-size: .85em;
       font-weight: 700;
@@ -860,8 +846,7 @@ button[class*="btn-social-"] {
       margin: 0;
       font-size: .85em;
       color: #fff;
-      -webkit-transition: all 0.25s ease-in-out;
-              transition: all 0.25s ease-in-out; }
+      transition: all 0.25s ease-in-out; }
       .nav-bar.nav-inline li a:hover {
         background: #353c4b;
         text-decoration: none; }
@@ -1047,8 +1032,7 @@ select {
   background-image: none;
   border: 1px solid #ccc;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  -webkit-transition: border ease-in-out .15s, box-shadow ease-in-out .15s;
-          transition: border ease-in-out .15s, box-shadow ease-in-out .15s; }
+  transition: border ease-in-out .15s, box-shadow ease-in-out .15s; }
 
 input[type="text"]:focus,
 input[type="search"]:focus,
@@ -1136,8 +1120,7 @@ select:readonly {
       border-radius: calc(16px / 2);
       background: #fff;
       box-shadow: inset 0 0 0 2px #ddd;
-      -webkit-transition: all 0.15s ease-in-out;
-              transition: all 0.15s ease-in-out; }
+      transition: all 0.15s ease-in-out; }
 
 input[type="checkbox"] {
   display: none; }
@@ -1162,8 +1145,7 @@ label {
   margin-bottom: 6px;
   display: inline-block;
   cursor: pointer;
-  -webkit-transition: color .2s ease-in-out;
-          transition: color .2s ease-in-out; }
+  transition: color .2s ease-in-out; }
   label:hover {
     color: #444; }
 
@@ -1203,9 +1185,6 @@ form.search {
   float: left;
   position: relative;
   width: 100%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   white-space: nowrap; }
   form.search input[type="text"],
@@ -1217,26 +1196,19 @@ form.search {
   form.search input[type="search"] {
     width: 100%;
     vertical-align: top;
-    -webkit-box-flex: 1;
-    -webkit-flex: 1 1 auto;
-        -ms-flex: 1 1 auto;
-            flex: 1 1 auto;
+    flex: 1 1 auto;
     border-radius: 3px 0 0 3px;
     border-right: none;
     box-shadow: none; }
     form.search input[type="text"] ~ .close-icon,
     form.search input[type="search"] ~ .close-icon {
-      -webkit-box-flex: 0;
-      -webkit-flex: 0 0 auto;
-          -ms-flex: 0 0 auto;
-              flex: 0 0 auto;
+      flex: 0 0 auto;
       background: #fff;
       border-radius: 0px;
       border: none;
       border-top: 1px solid #ccc;
       border-bottom: 1px solid #ccc;
-      -webkit-transition: all 0.15s ease-in-out;
-              transition: all 0.15s ease-in-out; }
+      transition: all 0.15s ease-in-out; }
       form.search input[type="text"] ~ .close-icon:before,
       form.search input[type="search"] ~ .close-icon:before {
         font-family: "Helvetica Neue", Helvetica, sans-serif;
@@ -1251,10 +1223,7 @@ form.search {
       color: #fff; }
   form.search input[type="submit"],
   form.search button {
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 0 auto;
-        -ms-flex: 0 0 auto;
-            flex: 0 0 auto;
+    flex: 0 0 auto;
     display: inline-block;
     vertical-align: top;
     border-radius: 0 3px 3px 0; }
@@ -1308,8 +1277,7 @@ form.search {
     height: 38px;
     background: #ddd;
     border-radius: 20px;
-    -webkit-transition: all 0.2s ease-out;
-            transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
     overflow: hidden;
     box-shadow: inset 0 0 0 0px #ddd; }
     .switch > label::after {
@@ -1322,10 +1290,8 @@ form.search {
       left: 4px;
       border-radius: 16px;
       background-color: white;
-      -webkit-transform: translate3d(0, 0, 0);
-              transform: translate3d(0, 0, 0);
-      -webkit-transition: all 0.1s ease-out;
-              transition: all 0.1s ease-out; }
+      transform: translate3d(0, 0, 0);
+      transition: all 0.1s ease-out; }
     .switch > label.lg {
       width: 80px;
       height: 46px;
@@ -1350,16 +1316,13 @@ form.search {
     box-shadow: inset 0 0 0 60px #4693e2; }
     .switch > input[type="checkbox"]:checked + label::after,
     .switch > input[type="radio"]:checked + label::after {
-      -webkit-transform: translate3d(20px, 0, 0);
-              transform: translate3d(20px, 0, 0); }
+      transform: translate3d(20px, 0, 0); }
     .switch > input[type="checkbox"]:checked + label.lg::after,
     .switch > input[type="radio"]:checked + label.lg::after {
-      -webkit-transform: translate3d(34px, 0, 0);
-              transform: translate3d(34px, 0, 0); }
+      transform: translate3d(34px, 0, 0); }
     .switch > input[type="checkbox"]:checked + label.sm::after,
     .switch > input[type="radio"]:checked + label.sm::after {
-      -webkit-transform: translate3d(18px, 0, 0);
-              transform: translate3d(18px, 0, 0); }
+      transform: translate3d(18px, 0, 0); }
 
 .alert,
 [class^="alert"],
@@ -1439,6 +1402,70 @@ form.search {
   [class*="alert"] p:last-child {
     margin-bottom: 0; }
 
+.widget-stream {
+  float: left;
+  clear: both;
+  width: 100%;
+  display: flex; }
+  .widget-stream a {
+    background: #f0f0f0;
+    padding: 5px;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out; }
+    .widget-stream a:hover {
+      background: #f9f9f9; }
+  .widget-stream .visual {
+    flex: 1 1 auto;
+    position: relative;
+    width: 32.2033898305%;
+    float: left;
+    margin-right: 1.6949152542%; }
+  .widget-stream .context {
+    flex: 1 1 auto;
+    position: relative;
+    width: 66.1016949153%;
+    float: right;
+    margin-right: 0; }
+  .widget-stream .visual .is-live,
+  .widget-stream .visual .not-live {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    background: #81b968;
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 3px 6px;
+    border-radius: 2px; }
+  .widget-stream .visual .not-live {
+    background: #cb3837; }
+  .widget-stream .visual img {
+    width: 100%;
+    height: auto;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 3px; }
+  .widget-stream .context > span {
+    float: left;
+    display: block;
+    width: 100%;
+    clear: both; }
+  .widget-stream .context .name {
+    font-weight: bold;
+    text-transform: uppercase; }
+  .widget-stream .context .viewers {
+    font-size: 0.9em;
+    margin-bottom: 10px; }
+  .widget-stream .context .href {
+    color: #546078;
+    font-size: 0.9em;
+    font-weight: bold; }
+    .widget-stream .context .href span[class*=icon] {
+      display: inline-block;
+      font-size: 0.7em;
+      margin-right: 3px; }
+
 body {
   font-family: "Source Sans Pro", sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -1470,6 +1497,15 @@ p.doc-helper {
   clear: both;
   width: 100%;
   margin-bottom: 15px; }
+  .doc-example.span-6 {
+    width: 49.1525423729%;
+    float: left;
+    margin-right: 1.6949152542%; }
+    .doc-example.span-6:nth-child(2n+2) {
+      width: 49.1525423729%;
+      float: right;
+      margin-right: 0;
+      clear: none; }
 
 .doc-hero {
   float: left;

@@ -61,7 +61,18 @@ p.doc-helper {
   clear: both;
   width: 100%;
   margin-bottom: 15px;
+  // Cols
+  //
+  &.span-6 {
+    @include span(6 of 12);
+    &:nth-child(2n+2) {
+      @include span(6 of 12 last);
+      clear: none;
+    }
+  }
 }
+
+
 
 // Documentation
 //
