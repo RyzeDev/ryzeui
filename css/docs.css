@@ -208,8 +208,8 @@ body {
 
 @font-face {
   font-family: 'ryzeui-icons';
-  src: url("/fonts/ryzeui-icons.eot?20g8mf");
-  src: url("/fonts/ryzeui-icons.eot?#iefix20g8mf") format("embedded-opentype"), url("/fonts/ryzeui-icons.ttf?20g8mf") format("truetype"), url("/fonts/ryzeui-icons.woff?20g8mf") format("woff"), url("/fonts/ryzeui-icons.svg?20g8mf#ryzeui-icons") format("svg");
+  src: url("../fonts/ryzeui-icons.eot?20g8mf");
+  src: url("../fonts/ryzeui-icons.eot?#iefix20g8mf") format("embedded-opentype"), url("../fonts/ryzeui-icons.ttf?20g8mf") format("truetype"), url("../fonts/ryzeui-icons.woff?20g8mf") format("woff"), url("../fonts/ryzeui-icons.svg?20g8mf#ryzeui-icons") format("svg");
   font-weight: normal;
   font-style: normal; }
 [class^="icon-"], [class*=" icon-"] {
