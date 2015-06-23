@@ -1,0 +1,118 @@
+//  Ryze UI
+//  Widget - Streams
+//
+
+.widget-stream {
+  float: left;
+  clear: both;
+  width: 100%;
+  display: flex;
+
+  // Link
+  //
+  a { 
+    background: #f0f0f0;
+    padding: 5px;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+    &:hover {
+      background: #f9f9f9;
+    }
+  }
+
+  // Visual Sizing
+  //
+  .visual {
+    flex: 1 1 auto;
+    position: relative;
+    @include span(4 of 12);
+  }
+
+  // Context Sizing
+  //
+  .context {
+    flex: 1 1 auto;
+    position: relative;
+    @include span(8 of 12 last);
+  }
+
+
+  // Visual
+  //
+  .visual {
+
+    // Live
+    //
+    .is-live,
+    .not-live {
+      position: absolute;
+      bottom: 5px;
+      left: 5px;
+      background: $green;
+      color: #fff;
+      font-size: 12px;
+      text-transform: uppercase;
+      padding: 3px 6px;
+      border-radius: 2px;
+    }
+
+    .not-live {
+      background: $red;
+    }
+
+    // Img
+    //
+    img {
+      width: 100%;
+      height: auto;
+      border: none;
+      padding: 0px;
+      margin: 0px;
+      border-radius: 3px;
+    }
+  }
+
+  // Visual
+  //
+  .context {
+
+    // Spans
+    //
+    > span {
+      float: left;
+      display: block;
+      width: 100%;
+      clear: both;
+    }
+    
+    // Name
+    //
+    .name {
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    
+    // Viewers
+    //
+    .viewers {
+      font-size: 0.9em;
+      margin-bottom: 10px;
+    }
+    
+    // Href
+    //
+    .href {
+      color: lighten($night,20%);
+      font-size: 0.9em;
+      font-weight: bold;
+      // Icon
+      //
+      span[class*=icon] {
+        display: inline-block;
+        font-size: 0.7em;
+        margin-right: 3px;
+      }
+    }
+    
+  }
+}

@@ -1,20 +1,20 @@
 //  Ryze UI
-//  Forms
+//  Fonts
 //
 
 @font-face {
-  font-family: 'ryzeui-social';
-  src:url('fonts/ryzeui-social.eot?ag2rui');
-  src:url('fonts/ryzeui-social.eot?#iefixag2rui') format('embedded-opentype'),
-      url('fonts/ryzeui-social.ttf?ag2rui') format('truetype'),
-      url('fonts/ryzeui-social.woff?ag2rui') format('woff'),
-      url('fonts/ryzeui-social.svg?ag2rui#ryzeui-social') format('svg');
+  font-family: 'ryzeui-icons';
+  src:url('/fonts/ryzeui-icons.eot?20g8mf');
+  src:url('/fonts/ryzeui-icons.eot?#iefix20g8mf') format('embedded-opentype'),
+      url('/fonts/ryzeui-icons.ttf?20g8mf') format('truetype'),
+      url('/fonts/ryzeui-icons.woff?20g8mf') format('woff'),
+      url('/fonts/ryzeui-icons.svg?20g8mf#ryzeui-icons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 [class^="icon-"], [class*=" icon-"] {
-  font-family: 'ryzeui-social';
+  font-family: 'ryzeui-icons';
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -24,16 +24,24 @@
   @include font-smoothing;
 }
 
-.icon-googleplus:before { content: "\eee4";}
-.icon-facebook:before {   content: "\eee8";}
-.icon-twitter:before {    content: "\eeed";}
-.icon-youtube:before {    content: "\eef3";}
-.icon-twitch:before {     content: "\eef7";}
-.icon-vimeo:before {      content: "\eef8";}
-.icon-dribbble:before {   content: "\ef04";}
-.icon-steam:before {      content: "\ef09";}
-.icon-soundcloud:before { content: "\ef20";}
-.icon-skype:before {      content: "\ef22";}
-.icon-linkedin:before {   content: "\ef24";}
-.icon-pinterest:before {  content: "\ef2c";}
-.icon-spotify:before {    content: "\e600";}
+.icon-chat:before         { content: "\e046";}
+.icon-users:before        { content: "\e251";}
+.icon-user:before         { content: "\e253";}
+.icon-heart:before        { content: "\e291";}
+.icon-star:before         { content: "\e299";}
+.icon-pin:before          { content: "\e2c8";}
+.icon-visibility:before   { content: "\e306";}
+.icon-spotify:before      { content: "\e600";}
+.icon-google-plus:before  { content: "\eee4";}
+.icon-facebook:before     { content: "\eee8";}
+.icon-twitter:before      { content: "\eeed";}
+.icon-youtube:before      { content: "\eef3";}
+.icon-twitch:before       { content: "\eef7";}
+.icon-vimeo:before        { content: "\eef8";}
+.icon-dribbble3:before    { content: "\ef04";}
+.icon-steam:before        { content: "\ef09";}
+.icon-soundcloud:before   { content: "\ef20";}
+.icon-skype:before        { content: "\ef22";}
+.icon-linkedin:before     { content: "\ef24";}
+.icon-pinterest:before    { content: "\ef2c";}
+
