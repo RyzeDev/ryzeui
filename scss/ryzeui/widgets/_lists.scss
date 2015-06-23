@@ -1,0 +1,168 @@
+//  Ryze UI
+//  Widget - Lists
+//
+
+.widget-list {
+  float: left;
+  clear: both;
+  width: 100%;
+  margin-bottom: 15px;
+  
+  // Default List
+  //
+  ul {
+    float: left;
+    width: 100%;
+    clear: both;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+
+    // List Items
+    //
+    li {
+      float: left;
+      clear: both;
+      width: 100%;
+      border-bottom: 1px solid #eee;
+      padding: 0px;
+      display: flex;
+      // No Link
+      //
+      &.no-link {
+        padding: 10px;
+      }
+      // Link
+      //
+      a {
+        display: flex;
+        width: 100%;
+        padding: 10px;
+        background: #fefefe;
+        transition: all 0.2s ease-in-out;
+        // Hover
+        //
+        &:hover {
+          text-decoration: none;
+          background: #f8f8f8;
+        }
+      }
+      // Last Item
+      //
+      &:last-child {
+        border: none;
+      }
+      // Spans
+      //
+      > span {
+        flex: 1 1 auto;
+      }
+      // Vid Thumb
+      //
+      .vid-thumb {
+        max-width: 120px;
+        margin-right: 10px;
+        position: relative;
+        // Image
+        //
+        img {
+          max-width: 100%;
+          height: auto;
+          padding: 0;
+          border: none;
+          margin: 0;
+        }
+      }
+      // Usr Thumb
+      //
+      .usr-thumb {
+        max-width: 50px;
+        margin-right: 10px;
+        position: relative;
+        // Image
+        //
+        img {
+          max-width: 100%;
+          height: auto;
+          padding: 0;
+          border: none;
+          border-radius: 5px;
+          margin: 0;
+        }
+      }
+      // Context
+      //
+      .context {
+        width: 100%;
+      }
+      // Timestamp
+      //
+      time {
+        font-size: 0.8em;
+        line-height: 1em;
+        margin: 4px 0 0 0;
+        display: inherit;
+      }
+      // Small
+      //
+      small {
+        font-weight: 700;
+        font-size: 0.7em;
+        line-height: 1em;
+        display: block;
+        color: lighten($night,20%);
+        margin: 4px 0 0 0;
+        @include font-smoothing;
+        // Reset Icon
+        //
+        > span[class*=icon] {
+          margin: 0 5px 0 0;
+          width: initial;
+          height: initial;
+          line-height: inherit;
+          border-radius: 0px;
+          background: transparent;
+          font-size: inherit;
+          color: inherit;
+          text-align: left;
+          vertical-align: middle;
+        }
+      }
+      // Titles
+      //
+      h5 {
+        line-height: 1em;
+        font-size: .888em;
+        font-weight: 700;
+        margin: 0;
+        padding: 0;
+        display: inherit;
+      }
+      // Icon
+      //
+      .number,
+      span[class*=icon] {
+        margin-left: 10px;
+        width: 32px;
+        height: 32px;
+        line-height: 32px;
+        border-radius: 2px;
+        background: $night;
+        font-size: 16px;
+        color: $theme;
+        text-align: center;
+      }
+      // Number
+      //
+      .number {
+        padding-left: 8px;
+        padding-right: 8px;
+        width: auto;
+        min-width: 40px;
+        font-weight: bold;
+        font-size: .75em;
+      }
+    }
+  }
+}

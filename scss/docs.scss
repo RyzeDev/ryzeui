@@ -34,6 +34,12 @@ code.hljs {
   border:1px solid #ddd
 }
 
+pre {
+  overflow: auto;
+  word-wrap: normal;
+  white-space: pre;
+}
+
 // Nav Bar
 //
 .nav-wrapper,
