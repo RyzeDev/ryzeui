@@ -1,0 +1,38 @@
+//  Ryze UI
+//  Baldur - Layout
+//
+
+.item {
+  float: left;
+  display: inline-block;
+  min-width: 100%;
+  background: #eee;
+}
+
+// Top Bar
+//
+#topbar {
+  background: $theme;
+  // Nav Bar
+  //
+  .nav-bar {
+    background: inherit;
+    // Nav Links
+    //
+    a:hover {
+      background: darken($theme,10%);
+    }
+  }
+}
+
+// Main Column
+//
+.main {
+  @include span(8 of 12);
+}
+
+// Sidebar
+//
+.sidebar {
+  @include span(4 of 12 last);
+}
