@@ -804,6 +804,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/scss\/ryzeui\/widgets\/_widgets.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/ryzeui\/widgets\/_widgets.scss",
+		"outputAbbreviatedPath": "\/scss\/ryzeui\/css\/_widgets.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/scss\/susy\/_background.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,

@@ -1460,6 +1460,15 @@ form.search {
   [class*="alert"] p:last-child {
     margin-bottom: 0; }
 
+.widget,
+[class^="widget-"],
+[class*="widget-"] {
+  float: left;
+  display: block;
+  width: 100%;
+  height: auto;
+  clear: both; }
+
 .widget-stream {
   float: left;
   clear: both;

@@ -1,0 +1,13 @@
+//  Ryze UI
+//  Widgets
+//
+
+.widget,
+[class^="widget-"],
+[class*="widget-"] {
+  float: left;
+  display: block;
+  width: 100%;
+  height: auto;
+  clear: both;
+}
